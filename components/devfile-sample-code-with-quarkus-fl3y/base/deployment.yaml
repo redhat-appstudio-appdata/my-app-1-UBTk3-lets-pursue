@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-code-with-quarkus-fl3y
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:beaumorley-tenant-devfile-sample-code-with-quarkus-fl3y
+      - image: quay.io/redhat-appstudio/user-workload@sha256:e8179fc11fa83e4d56d500d37d2b3c3b36f943c4c5ee7ac336648f6aa1fdc6f6
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
